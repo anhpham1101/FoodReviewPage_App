@@ -1,0 +1,369 @@
+p {
+    margin: 0;
+  }
+  .App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .App-header {
+    background-color: white;
+    height: 6vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(2px + 2vmin);
+    color: white;
+  }
+  
+  .App-feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2vw;
+    width: 60vw;
+  }
+  
+  .App-Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+  }
+  
+  .Logo {
+    width: 50px;
+    height: 40px;
+  }
+
+  .Navbar {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 30vw;
+  }
+
+  .Navbar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+  }
+  
+  .Add-ons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2vw;
+  }
+  
+  .User {
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .Avatar {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .Avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .User-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-left: 1vw;
+  }
+  
+  .Addons-feature {
+    width: 8vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Feature {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Addons-icon {
+    color: black;
+  }
+  
+  .Cover {
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Cover-img {
+    height: 40vh;
+    width: 50vw;
+  }
+  
+  .App-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Body-wrapper {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+
+  .Link {
+    color: black;
+    text-decoration: none !important;
+  }
+  
+  .App-food-category {
+    margin-top: 2vh;
+    background-color: whitesmoke;
+    height: 46vh;
+    width: 80vw;
+    border: 1px solid #dfdfdf;
+  }
+  
+  .Category-title {
+    background-color: white;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  
+  .Title-left {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .Icon-Border-BBQ {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(207,33,39);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Icon-Border-Hotpot {
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Icon-Border-Street {
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Icon-Border-Vegan {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Icon {
+    width: 4vw;
+    height: 4vh;
+    color: white;
+  }
+  
+  .Title-name {
+    margin-left: 1vw;
+    font-size: calc(6px + 2vmin);
+    font-weight: bold;
+    color: black;
+  }
+  
+  .Title-right {
+    height: 8vh;
+    width: 18vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Option {
+    height: 4vh;
+    width: 8vw;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+  .Content {
+    height: 38vh;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Left-button, .Right-button {
+    width: 2vw;
+    height: 38vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+  }
+  
+  .Left-button:hover, .Right-button:hover {
+    opacity: 100%;
+  }
+  
+  .Direction-button {
+    width: 1vw;
+    height: 38vh;
+  }
+  
+  .Middle {
+    width: 76vw;
+  }
+  
+  .Content-detailed {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 38vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .Tag {
+    height: 36vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dfdfdf;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+  }
+  
+  .Tag-image {
+    height: 20vh;
+    width: 14vw;
+  }
+  
+  .Image-Config {
+    height: 20vh;
+    width: 14vw;
+  }
+  
+  .Tag-information {
+    height: 16vh;
+    width: 14vw;
+    background-color: white;
+  }
+  
+  .Store {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1vw;
+    font-size: calc(6px + 2vmin);
+    font-weight: bold;
+  }
+  
+  .Address {
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 14px;
+  }
+  
+  .Classification {
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+  }
+  
+  .Category-Tags {
+    width: 3vw;
+    height: 3vh;
+    color: red;
+  }
+  
+  .Tags {
+    color: red;
+  }
+  
+  .Intext-Button {
+      font-size: 14px;
+      color: black;
+    }
+  

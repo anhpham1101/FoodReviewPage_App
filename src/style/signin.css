@@ -1,0 +1,203 @@
+p {
+    margin: 0;
+}
+
+.Wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.01), rgba(0,0,0,0.01)), url('../img/background.png');background-position: center;
+    background-repeat: no-repeat;
+    font-family: Georgia, serif;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Introduce-wrapper, .Login-form-wrapper {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Introduce {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Web-name {
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color:white;
+    font-size: calc(14px + 2vw);
+}
+
+.Web-description {
+    height: 10vh;
+    width: 30vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: bold;
+    color:white;
+    font-size: 14px;
+}
+
+.Web-image, .Image {
+    height: 60vh;
+    width: 36vw;
+}
+
+.Login-form {
+    width: 30vw;
+    height: 80vh;
+    border-radius: 3%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login-field{
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.Field-title {
+    width: 25vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Field-value {
+    width: 25vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Forget-password, .Sign-in-method {
+    width: 25vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+
+.Submit-button{
+    width: 8vw;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5%;
+    background-color: blue;
+    color: white;
+}
+
+.Sign-in-method, .Sign-up-method {
+    justify-content: center;
+    font-weight: bold;
+}
+
+.D-Sign-in-method {
+    width: 26vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.Method {
+    width: 12vw;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    border-radius: 5%;
+}
+.Icon-Signin {
+    width: 30px;
+    height: 30px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.Name {
+    font-size: 14px;
+    font-weight: bold;
+    width: 8vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Google {
+    border: solid 1px red;
+    color: red;
+}
+#Facebook {
+    border: solid 1px blue;
+    color: blue;
+}
+
+.Sign-up {
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(24,173,255);
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    align-items: flex-start;
+}
+
+.Link-Signup {
+    color: rgb(24,173,255);
+    text-decoration: none !important;
+}
+
+.Warning-Signin {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}

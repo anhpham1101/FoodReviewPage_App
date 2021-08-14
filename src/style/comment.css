@@ -1,0 +1,364 @@
+.Comment-wrapper {
+    padding-top: 5vh;
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Comment-menu {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.Comment-board {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Menu-title {
+    width: 35vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: solid 2px red;
+}
+
+.Menu-logo {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 50px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Menu-text {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-weight: bold;
+    font-size: calc(10px + 1vw);
+}
+
+.Menu-logo-img {
+    width: 50px;
+    height: 40px;
+}
+
+.New-comment-menu {
+    width: 35vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px 5px 5px;
+}
+
+.Comment-form {
+    width: 35vw;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Item-field{
+    width: 25vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.Item-field-special{
+    width: 25vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.Item-title {
+    width: 25vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Item-value {
+    width: 25vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Item-value-special {
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Button-group-wrapper {
+    width: 25vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Button-group {
+    width: 18vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+}
+
+.Add-button{
+    width: 8vw;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    background-color: red;
+}
+
+.Reset-button{
+    width: 8vw;
+    height: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    background-color: gray;
+}
+
+.Status {
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+
+.Group {
+    width: 50vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(221,221,221);
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.Group-filter {
+    width: auto;
+    height: 8vh;
+    background-color: white;
+    border: none;
+    font-size: calc(2px + 1vw);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-weight: bold;
+}
+
+.Group-filter:hover {
+    border-bottom: solid 1px red;
+}
+
+.Comments {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+    background-color: rgb(221,221,221);
+}
+
+.Comment-item {
+    margin-top: 2vh;
+    width: 50vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Comment-header {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.Comment-user-avatar{
+    width: 6vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Post-header {
+    width: 36vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 2vw;
+}
+
+.Username, .Storename{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Username, .Comment-title  {
+    font-weight: bold;
+}
+
+.Storename {
+    font-weight: bolder;
+    color: rgb(24,173,255);
+}
+
+.Date-Time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 8vw;
+}
+.Date, .Time {
+    font-size: 12px;
+}
+
+.Rate {
+    width: 6vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Score-Rate {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+.Comment-body {
+    margin-top: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 46vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Comment-description {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: left;
+}
+
+.Comment-footer {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-left: 2vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Love-icon, .Non-love-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.Love, .Non-love {
+    height: 4vh;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}
+
+.Love {
+    color: red;
+    font-weight: bold;
+}
+
+.Non-love{
+    color: black;
+    font-weight: normal;
+}
+
+.Love-icon {
+    color: red;
+    font-weight: normal;
+}
+
+.Non-love-icon {
+    color: black;
+    font-weight: normal;
+}
