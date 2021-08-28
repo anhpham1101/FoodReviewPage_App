@@ -171,7 +171,7 @@ export default function Dashboard(props) {
                                                         </div>
                                                     </div>
                                                 )
-                                            }
+                                            } else return null;
                                         })}
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@ export default function Dashboard(props) {
                                                         </div>
                                                     </div>
                                                 )
-                                            }
+                                            } else return null;
                                         })}
                                     </div>
                                 </div>
@@ -291,7 +291,7 @@ export default function Dashboard(props) {
                                                         </div>
                                                     </div>
                                                 )
-                                            }
+                                            } else return null;
                                         })}
                                     </div>
                                 </div>
@@ -351,7 +351,7 @@ export default function Dashboard(props) {
                                                         </div>
                                                     </div>
                                                 )
-                                            }
+                                            } else return null;
                                         })}
                                     </div>
                                 </div>

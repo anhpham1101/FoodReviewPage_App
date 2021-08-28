@@ -17,7 +17,7 @@ export default function Comment(props) {
     console.log(user, name);
 
     const [show_status, onchange_show] = useState(false);
-    const [add_comment_status, onChange_status] = useState("Success add new comment");
+    const add_comment_status = "Success add new comment";
     const [comment, setComment] = useState([]);
 
     const { register, handleSubmit } = useForm();
