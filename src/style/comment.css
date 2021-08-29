@@ -330,35 +330,3 @@
     align-items: center;
     justify-content: flex-start;
 }
-
-.Love-icon, .Non-love-icon {
-    width: 40px;
-    height: 40px;
-}
-
-.Love, .Non-love {
-    height: 4vh;
-    border: none;
-    background-color: white;
-    font-size: 16px;
-}
-
-.Love {
-    color: red;
-    font-weight: bold;
-}
-
-.Non-love{
-    color: black;
-    font-weight: normal;
-}
-
-.Love-icon {
-    color: red;
-    font-weight: normal;
-}
-
-.Non-love-icon {
-    color: black;
-    font-weight: normal;
-}

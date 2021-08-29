@@ -16,13 +16,13 @@ export default function SignUp() {
         let email_regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
         let phone_regex = /((09|03|07|08|05)+([0-9]{8})\b)/g;
         if (data["password"].length <= 8) {
-            setInfo("Invalid password");
+            setInfo("Invalid password. Password must have more than 8 characters");
             return false;
         } else if (!email_regex.test(data["email"])) {
-            setInfo("Invalid email format");
+            setInfo("Invalid email format. Ex: myemail@gmail.com");
             return false;
         } else if (!phone_regex.test(data["phone"])) {
-            setInfo("Invalid phone number");
+            setInfo("Invalid phone number. Phone must have 10 digits");
             return false;
         } else return true;
     }

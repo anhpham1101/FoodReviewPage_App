@@ -52,6 +52,19 @@ export default function Comment(props) {
             })
             const jsonData = await response.json();
             console.log(jsonData);
+            window.location.reload();
+        } catch (err) {
+            console.error(err.message);
+        }
+    }
+
+    const deleteDataDelete = async (id) => {
+        try {
+            const response = await fetch(`http://localhost:5000/delete_comment/${id}`, {
+                method: 'DELETE'
+            })
+            console.log(response);
+            window.location.reload();
         } catch (err) {
             console.error(err.message);
         }
@@ -181,7 +194,7 @@ export default function Comment(props) {
                                     </div>
                                     <div className="Item-field-special">
                                         <p className="Item-title">Comment</p>
-                                        <input {...register("comment", { required: true })} className="Item-value-special" />
+                                        <textarea {...register("comment", { required: true })} className="Item-value-special" />
                                     </div>
                                     <div className="Item-field">
                                         <p className="Item-title">Score</p>
@@ -215,9 +228,6 @@ export default function Comment(props) {
                             <div className="Group">
                                 <button className="Group-filter">
                                     <p>New Comments</p>
-                                </button>
-                                <button className="Group-filter">
-                                    <p>Your Comments</p>
                                 </button>
                             </div>
                             <div className="Comments">
@@ -255,6 +265,13 @@ export default function Comment(props) {
                                                 <div className="Comment-description">
                                                     <p>{element["description"]}</p>
                                                 </div>
+                                            </div>
+                                            <div className="Comment-footer">
+                                                <Button variant="primary"
+                                                    className="Add-button"
+                                                    onClick={() => deleteDataDelete(comment[key]['comment_id'])}>
+                                                    <p>Delete</p>
+                                                </Button>
                                             </div>
                                         </span>
                                     )
