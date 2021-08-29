@@ -52,7 +52,7 @@ export default function Comment(props) {
             })
             const jsonData = await response.json();
             console.log(jsonData);
-            window.location.reload();
+            window.location.reload(false);
         } catch (err) {
             console.error(err.message);
         }
@@ -64,7 +64,7 @@ export default function Comment(props) {
                 method: 'DELETE'
             })
             console.log(response);
-            window.location.reload();
+            window.location.reload(false);
         } catch (err) {
             console.error(err.message);
         }
