@@ -29,7 +29,7 @@ export default function Dashboard(props) {
     // HTTP POST request to get all restaurant data
     const postDataFetch = async () => {
         try {
-            const response = await fetch("http://localhost:5000/get_restaurant", {
+            const response = await fetch("https://foodreview1101.herokuapp.com/get_restaurant", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ 'data': "data sent" }),

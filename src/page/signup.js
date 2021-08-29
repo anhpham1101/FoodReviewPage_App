@@ -46,7 +46,7 @@ export default function SignUp() {
 
     const postDataFetch = async (data) => {
         try {
-            const response = await fetch("http://localhost:5000/add_user", {
+            const response = await fetch("https://foodreview1101.herokuapp.com/add_user", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data),

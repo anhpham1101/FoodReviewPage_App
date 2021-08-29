@@ -28,7 +28,7 @@ export default function Promotion(props) {
     // HTTP POST request to get all user data
     const postDataFetch = async () => {
         try {
-            const response = await fetch("http://localhost:5000/get_promotion", {
+            const response = await fetch("https://foodreview1101.herokuapp.com/get_promotion", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ 'data': "data sent" }),

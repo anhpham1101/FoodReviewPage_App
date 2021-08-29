@@ -45,7 +45,7 @@ export default function Comment(props) {
 
     const postDataInsert = async (data) => {
         try {
-            const response = await fetch("http://localhost:5000/add_comment", {
+            const response = await fetch("https://foodreview1101.herokuapp.com/add_comment", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data),
@@ -60,7 +60,7 @@ export default function Comment(props) {
 
     const deleteDataDelete = async (id) => {
         try {
-            const response = await fetch(`http://localhost:5000/delete_comment/${id}`, {
+            const response = await fetch(`https://foodreview1101.herokuapp.com/delete_comment/${id}`, {
                 method: 'DELETE'
             })
             console.log(response);

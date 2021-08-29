@@ -24,7 +24,7 @@ export default function SignIn() {
     // HTTP POST request to get all user data
     const postDataFetch = async () => {
         try {
-            const response = await fetch("http://localhost:5000/get_user", {
+            const response = await fetch("https://foodreview1101.herokuapp.com/get_user", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ 'data': "data sent" }),
